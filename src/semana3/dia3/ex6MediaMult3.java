@@ -9,8 +9,8 @@ public class ex6MediaMult3 {
 	0(zero).(DO...WHILE)
   */
 	public static void main (String[] args) {
-		int entrada_usuario=0, somaMultPor3= 0, contMultPor3= 0;
-		float media;
+		int entrada_usuario=0, somaMult3= 0, contMult3= 0;
+		float media= 0;
 		
 		try (Scanner leitura = new Scanner(System.in)) {
 			do {
@@ -18,13 +18,13 @@ public class ex6MediaMult3 {
 				entrada_usuario = leitura.nextInt();
 				
 				if( (entrada_usuario % 3) == 0 && entrada_usuario!= 0) {
-					somaMultPor3+= entrada_usuario;
-					contMultPor3++;
+					somaMult3+= entrada_usuario;
+					contMult3++;
 				}
 				
 			}while(entrada_usuario != 0);
 			
-			media = (float) somaMultPor3/contMultPor3;
+			if(contMult3 != 0) media = (float) somaMult3/contMult3;
 			
 			System.out.println("A média dos números digitados que são múltiplos por 3 é: "+media);
 		}catch(Exception ex) {
