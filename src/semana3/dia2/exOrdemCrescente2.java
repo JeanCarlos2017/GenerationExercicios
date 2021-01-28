@@ -3,20 +3,20 @@ package semana3.dia2;
 import java.util.Scanner;
 
 public class exOrdemCrescente2 {
-	//ordenando tres números com o auxilio da biblioteca Math
+	//ordenando tres nï¿½meros com o auxilio da biblioteca Math
 	public static void main (String[] args) {
 		int n1, n2, n3;
 		
 		
 		try (Scanner leitura = new Scanner(System.in)) {
-			System.out.print("Digite o primeiro número: ");
+			System.out.print("Digite o primeiro nÃºmero: ");
 			n1 = leitura.nextInt();
-			System.out.print("Digite o segundo número: ");
+			System.out.print("Digite o segundo nÃºmero: ");
 			n2 = leitura.nextInt();
-			System.out.print("Digite o terceiro número: ");
+			System.out.print("Digite o terceiro nÃºmero: ");
 			n3 = leitura.nextInt();
 			
-			System.out.println("Os números em ordem crescente: "+ Math.min(n1, Math.min(n2, n3))+
+			System.out.println("Os nÃºmeros em ordem crescente: "+ Math.min(n1, Math.min(n2, n3))+
 					", "+Math.max(Math.min(n1, n2), Math.max(Math.min(n1, n3), Math.min(n2, n3)))+", "+
 					Math.max(n1, Math.max(n2, n3)));		
 		}catch (Exception ex) {
