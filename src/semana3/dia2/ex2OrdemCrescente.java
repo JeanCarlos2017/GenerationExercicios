@@ -7,13 +7,13 @@ public class ex2OrdemCrescente {
 		int n1, n2, n3, maior= 0, meio= 0, menor= 0;
 		
 		try (Scanner leitura = new Scanner(System.in)) {
-			System.out.print("Digite o primeiro número: ");
+			System.out.print("Digite o primeiro nÃºmero: ");
 			n1 = leitura.nextInt();
-			System.out.print("Digite o segundo número: ");
+			System.out.print("Digite o segundo nÃºmero: ");
 			n2 = leitura.nextInt();
-			System.out.print("Digite o terceiro número: ");
+			System.out.print("Digite o terceiro nÃºmero: ");
 			n3 = leitura.nextInt();
-			
+	
 			if (n1 >= n2) {
 				if (n1 >= n3) {
 					//n1 > n2 e n3
@@ -54,10 +54,7 @@ public class ex2OrdemCrescente {
 					menor= n1;
 				}
 			}
-		
-			
-			
-		System.out.println("Os números em ordem crescente: "+menor+", "+meio+", "+maior);		
+		System.out.println("Os nï¿½meros em ordem crescente: "+menor+", "+meio+", "+maior);		
 		}catch (Exception ex) {
 			System.out.println("Erro na leitura de dados. "+ex);
 		}
