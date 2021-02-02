@@ -2,7 +2,7 @@ package semana4.dia1;
 
 import java.util.ArrayList;
 
-public class ex1ClassCliente {
+public class Ex1ClassCliente {
 	private String nome;
 	private int idade;
 	private boolean ativo;
@@ -11,9 +11,9 @@ public class ex1ClassCliente {
 	private String telefone;
 	
 	//construtores 
-	public ex1ClassCliente() {}
+	public Ex1ClassCliente() {}
 	
-	public ex1ClassCliente(String nome, int idade, boolean ativo, String endereco, 
+	public Ex1ClassCliente(String nome, int idade, boolean ativo, String endereco, 
 			String email, String telefone) {
 		super();
 		this.nome = nome;
@@ -58,15 +58,15 @@ public class ex1ClassCliente {
 	
 	
 	public static void main(String args[]) {
-		ArrayList<ex1ClassCliente> arrayCliente = new ArrayList<>();
+		ArrayList<Ex1ClassCliente> arrayCliente = new ArrayList<>();
 		//populando o array 
-		arrayCliente.add(new ex1ClassCliente("Jean Carlos", 27, true, "Poá-São José", 
+		arrayCliente.add(new Ex1ClassCliente("Jean Carlos", 27, true, "Poá-São José", 
 				"jean@email.com", "jean_telefone"));
-		arrayCliente.add(new ex1ClassCliente("Mamis", 25, true, "Poá-São José", 
+		arrayCliente.add(new Ex1ClassCliente("Mamis", 25, true, "Poá-São José", 
 				"mamis@email.com", "mamis_telefone"));
-		arrayCliente.add(new ex1ClassCliente("Paula", 27, true, "Poá-Nova Poá", 
+		arrayCliente.add(new Ex1ClassCliente("Paula", 27, true, "Poá-Nova Poá", 
 				"paula@email.com", "paula_telefone"));
-		arrayCliente.add(new ex1ClassCliente("Rafaella", 5, true, "Poá-Nova Poá", 
+		arrayCliente.add(new Ex1ClassCliente("Rafaella", 5, true, "Poá-Nova Poá", 
 				"rafan@email.com", "rafa_telefone"));
 		
 		//imprimindo 
