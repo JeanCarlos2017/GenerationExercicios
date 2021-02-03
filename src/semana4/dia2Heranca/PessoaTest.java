@@ -8,7 +8,7 @@ public class PessoaTest {
 		vet_pessoa[2]= new Pessoa();
 		
 		for(int i=0; i < 3; i++) {
-			System.out.println(vet_pessoa[i].toString());
+			System.out.println(vet_pessoa[i]);
 		}
 		
 		vet_pessoa[1].setTelefone("telefone2");
@@ -18,7 +18,7 @@ public class PessoaTest {
 		
 		System.out.println("\n\nNova impressão");
 		for(int i=0; i < 3; i++) {
-			System.out.println(vet_pessoa[i].toString());
+			System.out.println(vet_pessoa[i]);
 		}
 	}
 
