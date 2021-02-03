@@ -1,6 +1,5 @@
 package semana4.dia1;
 
-import java.util.Iterator;
 
 public class Ex2Aviao {
 	private String nomeFabricante;
