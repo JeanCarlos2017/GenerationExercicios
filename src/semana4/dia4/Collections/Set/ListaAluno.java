@@ -31,6 +31,7 @@ public class ListaAluno {
 	    System.out.println(conjuntoOrdenando);
 	    
 	    //verificando que tem o mesmo efeito 
+	    conjuntoOrdenando.removeAll(conjuntoOrdenando);
 	    System.out.println("Verificando que TreeSet não permite elementos repetidos: ");
 	    conjuntoOrdenando.add(a);
 	    conjuntoOrdenando.add(b);
