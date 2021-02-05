@@ -1,6 +1,8 @@
 package semana4.dia4.Collections;
 
 import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class EstoqueCollection {
 	private Collection<Estoque> colletionEstoque;
@@ -35,5 +37,10 @@ public class EstoqueCollection {
 	
 	public void imprimeEstoques() {
 		System.out.println(this.colletionEstoque);
+	}
+	
+	public void ordenaElementos() {
+		//convertendo para o tipo List e fazendo a orndenação
+		Collections.sort((List<Estoque>) this.colletionEstoque);
 	}
 }

@@ -30,5 +30,12 @@ public class MainEstoque {
 		estoqueCollection.atualizaEstoque(new Estoque(50, 1, "inflamável", "Jean", "Preferiu vender os produtos, dá mais dinheiro :D"));
 		estoqueCollection.imprimeEstoques();
 		
+		//ordenando elementos
+		estoqueCollection.ordenaElementos();
+		System.out.println("\n\nOrdenando Elementos...");
+		estoqueCollection.imprimeEstoques();
+		
+		
+		
 	}
 }
