@@ -48,3 +48,7 @@ call  addFuncionario('Bruna a apaixonada', 20000, 'rgBruna', 'cpfBruna', 'coach 
 
 SELECT * FROM funcionário WHERE funcionário.salario < 2000;
 SELECT * FROM funcionário WHERE funcionário.salario > 2000;
+
+UPDATE empresarh.funcionário
+set salario= 50000
+WHERE idFuncionário= 3;

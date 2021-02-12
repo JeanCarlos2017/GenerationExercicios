@@ -46,4 +46,7 @@ call addProduto('produto10', 'fabricante10', 1000, 'marca10', 'tipo10');
  
  SELECT * FROM produto WHERE produto.preco > 500;
   SELECT * FROM produto WHERE produto.preco < 500;
-  
+
+UPDATE ecommercegb.produto
+set marca = "Crefisa"
+WHERE id = 5;
