@@ -1,4 +1,5 @@
  use db_farmacia_do_bem;
+
 DELIMITER //
 CREATE PROCEDURE `addProduto` (nome_produto varchar(50), preco float, descricao varchar(500), 
 		categoria_id int(6))
@@ -10,7 +11,7 @@ CREATE PROCEDURE `addProduto` (nome_produto varchar(50), preco float, descricao 
 DELIMITER ;
 
 DELIMITER //
-/*
+
 CREATE PROCEDURE `selectProdutoMaior` (preco float)
 	BEGIN
 		SELECT * FROM tb_produto WHERE tb_produto.preco > preco;
@@ -56,4 +57,3 @@ CREATE PROCEDURE `selectProdutoPorCategoria` (categoria varchar(50))
 	END//
 
 DELIMITER ;
-*/

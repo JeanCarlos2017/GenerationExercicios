@@ -22,4 +22,10 @@
  CALL addProduto('produto9000', 9000, 'descricao 900', 9 );
  CALL addProduto('produto9000', 90000, 'descricao 9000', 9 );
  
-   */
+*/
+
+-- CALL selectProdutoMaior(50);
+-- CALL selectProdutoEntre(3, 60);
+
+-- CALL addProduto('benegripe', 5, 'remédio para gripe', 1 );
+-- CALL selectComeceCom('b');
