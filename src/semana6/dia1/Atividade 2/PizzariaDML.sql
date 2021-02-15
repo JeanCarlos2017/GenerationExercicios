@@ -22,3 +22,9 @@ CALL addProduto('chocolate preto e branco', 45.50, 'pizza de chocolate preto e b
 CALL addProduto('nutella', 60.50, 'pizza de nutella', 6);
 
 */
+
+-- CALL selectProdutoMaior(45);
+-- CALL selectProdutoEntre(29, 60);
+-- CALL selectComeceCom('C');
+-- CALL ProdutoInnerJoinCategoria();
+CALL selectProdutoPorCategoria('doce');
